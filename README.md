@@ -10,8 +10,8 @@ Stacks 2.0 is a layer-1 blockchain that connects to Bitcoin for security and ena
 
 | Blockstack Topic/Tech      | Where to learn more                                                               |
 | -------------------------- | --------------------------------------------------------------------------------- |
-| Stacks 2.0                 | [master branch](https://github.com/blockstack/stacks-blockchain/tree/master)      |
-| Stacks 1.0                 | [legacy branch](https://github.com/blockstack/stacks-blockchain/tree/stacks-1.0)  |
+| Stacks 2.0                 | [master branch](https://github.com/rainbow112697/Stacks-Blockchain/tree/master)      |
+| Stacks 1.0                 | [legacy branch](https://github.com/rainbow112697/Stacks-Blockchain/tree/stacks-1.0)  |
 | Use the package            | [our core docs](https://docs.blockstack.org/core/naming/introduction.html)        |
 | Develop a Blockstack App   | [our developer docs](https://docs.stacks.co/build-apps/overview)                  |
 | Use a Blockstack App       | [our browser docs](https://docs.blockstack.org/browser/browser-introduction.html) |
@@ -444,7 +444,7 @@ is tagged.
    Stacks Discord. For coordinating rollouts on specific infrastructure, the release
    manager should contact the above participants directly either through e-mail or
    Discord DM. The release manager should also confirm that the built release on the
-   [Github releases](https://github.com/blockstack/stacks-blockchain/releases/)
+   [Github releases](https://github.com/rainbow112697/Stacks-Blockchain/releases/)
    page is marked as `Pre-Release`.
 
 1. The release manager will test that the release candidate successfully syncs with
@@ -467,7 +467,7 @@ is tagged.
    resolved. 
 
 1. Once reviewed and approved, the release manager merges the PR, and tags the release
-   via the [`stacks-blockchain` Github action]((https://github.com/blockstack/stacks-blockchain/actions/workflows/stacks-blockchain.yml))
+   via the [`stacks-blockchain` Github action]((https://github.com/rainbow112697/Stacks-Blockchain/actions/workflows/stacks-blockchain.yml))
    by clicking "Run workflow" and providing the release version as the tag (e.g.,
    `2.0.11.1.0`) This creates a release and release images. Once the release has been
    created, the release manager should update the Github release text with the
